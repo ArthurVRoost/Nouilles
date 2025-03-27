@@ -13,6 +13,7 @@ nav{
     position: sticky;
     top: 0px;
     border-bottom: 1px solid rgba(128, 128, 128, 0.309);
+    margin-bottom: -129px;
    
     
 }
@@ -43,6 +44,12 @@ h4{
 header{
     height: auto;
     line-height: 1.2;
+    background: linear-gradient(180deg,rgba(255, 95, 47, 0) 50%, rgb(255, 255, 255) 90%), url(/Nouilles/images/header.jpg) no-repeat;
+    width: auto;
+    height: auto;
+    background-size: cover;
+    background-position: 50% 29%;
+    padding-top: 80px;
     
 }
 
@@ -51,7 +58,7 @@ header{
     color: rgb(101, 99, 99);
     display: flex;
     font-size: 40px;
-    padding-top: 30px;
+    padding-top: 60px;
     margin-left: 35%;
     
 }
@@ -89,4 +96,8 @@ header{
     width: 8vw;
     height: 5vh;
     margin-left: 35%;
+}
+
+.section1{
+    display: flex;
 }
