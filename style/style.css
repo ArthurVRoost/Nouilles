@@ -232,3 +232,50 @@ h4{
     padding: 8px;
     font-size: 14px;
 }
+
+.section5Display{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.section5{
+   color: white;
+    background-color: #64579f;
+    margin-top: 8vh;
+    padding-top: 2vh;
+    padding-bottom: 2vh;
+}
+
+.section5Btn{
+    color: black;
+    font-weight: bolder;
+    font-family: "Baloo 2";
+    border: 1px solid ;
+    border-radius: 5px;
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.section5H{
+    font-family: "Baloo 2";
+    font-size: 25px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 20px;
+    
+}
+
+.section5P{
+    font-family: "Noto Sans JP";
+    font-size: 15px;
+}
+
+.section5Text{
+    margin-left: 10%;
+}
+
+.BtnS5{
+    margin-left: -25%;
+}
