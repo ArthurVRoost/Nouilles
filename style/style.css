@@ -36,5 +36,35 @@ header{
     background-image: url(/Nouilles/images/header.jpg);
     background-position: 50% 25%;
     height: auto;
-    padding-top: 50px;
+    line-height: 1.2;
+}
+
+.headerH2{
+    font-family: "Baloo 2";
+    color: rgb(101, 99, 99);
+    display: flex;
+    font-size: 40px;
+    padding-top: 30px;
+    
+}
+
+.headerH2 h2{
+    margin: 0px;
+}
+
+.headerH1{
+    font-family: "Baloo 2";
+    color: rgb(69, 68, 68);
+    display: flex;
+    font-size: 40px;
+}
+
+.headerH1 h3{
+    margin: 0px;
+}
+
+.headerH3{
+    font-family: "Noto+Sans+JP";
+    font-weight: 100;
+    letter-spacing: 5px;
 }
