@@ -336,3 +336,28 @@ h4{
     width: 300px;
     height: 300px;
 }
+textarea {
+    width: 75%;
+    margin-left: 12%;
+    height: 150px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid rgba(128, 128, 128, 0.407);
+    border-radius: 5px;
+    margin-top: 7vh;
+    
+    
+}
+
+.section8Btn {
+    margin-top: 15px;
+    margin-left: 43%;
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #64579f;
+    border: 1px solid #64579f;
+    background-color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    
+}
