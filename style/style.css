@@ -1,0 +1,33 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+nav{
+    display: flex;
+    align-items: center;
+    position: sticky;
+    top: 0px;
+    justify-content: space-between;
+    
+}
+.navHref a {
+    gap: 1vw;
+    color: rgb(93, 91, 91);
+    text-decoration: none;
+    position: relative;
+    padding-right: 1vw;
+    font-family: "Baloo 2";
+    font-weight: bold;
+}
+.navHref{
+    padding-right: 30px;
+}
+.navTitre{
+    font-family: "Baloo 2";
+    position: relative;
+    left: 2%;
+}
+h4{
+    color: #64579f;
+    font-size: 30px;
+}
