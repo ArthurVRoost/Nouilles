@@ -136,18 +136,19 @@ h4{
     padding: 10px;
 }
 
-.section2{
+.section{
     padding-top: 20vh;
     margin-left: 15%;
     margin-right: 10%;
+    height: auto;
 }
 
-.section2H4{
+.sectionH4{
     display: flex;
     justify-content: center;
 }
 
-.section2H3{
+.sectionH3{
     display: flex;
     justify-content: center;
 }
@@ -157,7 +158,7 @@ h4{
     text-align: center;
     justify-content: space-between;
     gap: 30px;
-    padding-top: 5vh;
+    padding-top: 7vh;
 }
 
 .imgsection2{
@@ -176,4 +177,58 @@ h4{
     font-size: 15px;
     font-family: "Baloo 2";
     font-weight: bold;
+}
+
+.section3img img{
+    
+    width: 355px;
+    height: 355px;
+    
+    padding-top: 7vh;
+}
+
+.section3img{
+    display: flex;
+    gap: 20px;
+    width: 100%;
+}
+.section4case{
+    display: flex;
+    padding-top: 7vh;
+    justify-content: center;
+}
+
+.imgsection4{
+    width: 70px;
+}
+
+.section4CaseB{
+    border: 1px solid gray;
+    padding: 50px;
+    line-height: 1.8;
+    text-align: center;
+    padding-left: 90px;
+    padding-right: 90px;
+}
+
+.fa-solid{
+    color: red;
+}
+
+.section4P{
+    color: rgb(126, 124, 124);
+    font-family: "Noto Sans JP";
+}
+
+.section4Prix{
+    color: rgb(88, 87, 87);
+    font-size: 30px;
+}
+
+.section4Btn{
+    background-color: #64579f;
+    color: white;
+    border: none;
+    padding: 8px;
+    font-size: 14px;
 }
