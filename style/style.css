@@ -288,6 +288,7 @@ h4{
     display: flex;
     border: 1px solid rgb(151, 149, 149);
     align-items: center;
+    margin-top: 7vh;
 }
 
 .fa-heart{
@@ -361,3 +362,53 @@ textarea {
     cursor: pointer;
     
 }
+
+.section6Case1{
+    border: 1px solid rgba(128, 128, 128, 0.472);
+    width: 500px;
+    display: flex;
+    align-items: center;
+}
+.section6img1{
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    left: 12%;
+    
+}
+.section6P{
+    padding-left: 13%;
+    padding-top: 3%;
+    font-family:"Noto Sans JP" ;
+    font-weight: 100;
+}
+.section6img2{
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    position: absolute;
+    left: 51.5%;
+}
+.section6Titre{
+    font-family: "Baloo 2";
+    padding-left: 13%;
+    margin: 0;
+    padding-bottom: 3%;
+    color: #64579f;
+    font-size: 20px;
+}
+
+.section6case2{
+    border: 1px solid rgba(128, 128, 128, 0.472);
+    width: 500px;
+    display: flex;
+    align-items: center;
+}
+
+.section6{
+    display: flex;
+    gap: 70px;
+    padding-top: 7vh;
+}
+
