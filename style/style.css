@@ -279,3 +279,60 @@ h4{
 .BtnS5{
     margin-left: -25%;
 }
+
+.section7img1{
+    width: 300px;
+    height: 300px;
+}
+.section7Case1{
+    display: flex;
+    border: 1px solid rgb(151, 149, 149);
+    align-items: center;
+}
+
+.fa-heart{
+    color: red;
+}
+
+.section7Case1Text{
+    margin-left: 20px;
+}
+
+.section7H3{
+    font-size: 20px;
+}
+
+.section7H4{
+    font-size: 15px;
+    font-family: "Noto Sans JP" ;
+}
+
+.section7P{
+    font-size: 13px;
+    font-family: "Noto Sans JP";
+    line-height: 1.9;
+    color: rgba(49, 48, 48, 0.804);
+}
+
+.section7PB{
+    font-size: 13px;
+    font-family: "Noto Sans JP";
+    line-height: 1.9;
+    color: black
+}
+
+.section7a{
+    text-decoration: none;
+}
+
+.section7Case2{
+    display: flex;
+    border: 1px solid rgb(151, 149, 149);
+    align-items: center;
+    margin-top: 30px;
+}
+
+.section7img2{
+    width: 300px;
+    height: 300px;
+}
