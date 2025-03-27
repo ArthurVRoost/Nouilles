@@ -113,9 +113,6 @@ header{
     
 }
 
-.h4SansNav{
-
-}
 
 h4{
     font-family:"Noto Sans JP" ;
@@ -137,4 +134,46 @@ h4{
     color: #64579f;
     background-color: white;
     padding: 10px;
+}
+
+.section2{
+    padding-top: 20vh;
+    margin-left: 15%;
+    margin-right: 10%;
+}
+
+.section2H4{
+    display: flex;
+    justify-content: center;
+}
+
+.section2H3{
+    display: flex;
+    justify-content: center;
+}
+
+.section2img{
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    gap: 30px;
+    padding-top: 5vh;
+}
+
+.imgsection2{
+    width: 50px;
+    height: 50px;
+}
+
+.section2case{
+    width:300px;
+    border: 1px solid rgba(128, 128, 128, 0.383);
+    padding: 50px;
+}
+
+.section2P{
+    color: #64579f;
+    font-size: 15px;
+    font-family: "Baloo 2";
+    font-weight: bold;
 }
