@@ -230,7 +230,7 @@ h3{
 header{
     height: auto;
     line-height: 1;
-    background: linear-gradient(180deg,rgba(255, 95, 47, 0) 50%, rgb(255, 255, 255) 90%), url(./Nouilles/images/header.jpg) no-repeat;
+    background: linear-gradient(180deg,rgba(255, 95, 47, 0) 50%, rgb(255, 255, 255) 90%), url(../Nouilles/images/header.jpg) no-repeat;
     width: auto;
     height: auto;
     background-size: cover;
