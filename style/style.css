@@ -165,12 +165,15 @@
         display: none;
     }
 }
-
+/* margin et padding 0 a tout le body, premiere etape importante. */
 body{
     margin: 0;
     padding: 0;
    
 }
+/* Position sticky + top 0px pour qu'elle reste coler en haut de l'écran en descendant vers le bas */
+/* le margin-bottom est parce que j'ai mis mon background image dans le header du coup ma nav a une marge - pour descendre sur le l'image */
+/* Border bottom pas nécessaire mais dans la template on voit une genre de border mais dans la nav donc je l'ai mise partout. */
 nav{
     display: flex;
     align-items: center;
@@ -179,12 +182,9 @@ nav{
     top: 0px;
     border-bottom: 1px solid rgba(128, 128, 128, 0.309);
     margin-bottom: -110px;
-    
-   
-    
 }
 
- 
+ /* Tout du long de mon css je précise le font-family a chaque fois, j'ai pas mis tout pour les titres et tout pour les p. */
 .navHref a {
     gap: 1vw;
     color: rgb(93, 91, 91);
