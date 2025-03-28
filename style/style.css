@@ -494,3 +494,7 @@ footer>div{
     background-color: white;
     opacity: 50%;
 }
+
+footer a{
+    color: rgb(134, 133, 133);
+}
