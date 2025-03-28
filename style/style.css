@@ -179,19 +179,72 @@ h4{
     font-weight: bold;
 }
 
-.section3img img{
-    
-    width: 355px;
-    height: 355px;
-    
+ .section3img{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
     padding-top: 7vh;
+ }
+
+
+.casePort{
+    position: relative;
+    overflow: hidden;
+    width: 355px;
 }
 
-.section3img{
-    display: flex;
-    gap: 20px;
+.imgPort{
+    display: block;
     width: 100%;
+    transition: opacity 0.5s ease;
 }
+
+.animPort{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0);
+    width: 100%;
+    height: 100%;
+    background-color:rgba(227, 208, 236, 0.7) ;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: transform 0.5s ease, opacity 0.5s ease;
+    text-align: center;
+}
+.animPort h3{
+    transform: scale(0.8);
+    transition: transform 0.5s ease;
+}
+
+.animPort{
+    font-size: 18px;
+    color: black;
+    opacity: 0;
+    transition: opacity 0.5s ease 0.2s;
+}
+
+.casePort:hover .animPort{
+    opacity: 1;
+    transform: translate(-50%, -50%) scale(1);
+}
+
+.casePort:hover .animPort h3{
+    transform: scale(1);
+}
+
+.casePort:hover .animPort p{
+    opacity: 1;
+}
+
+.casePort:hover .imgPort{
+    opacity: 0.5;
+}
+
+
 .section4case{
     display: flex;
     padding-top: 7vh;
