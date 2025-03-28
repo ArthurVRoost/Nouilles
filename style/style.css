@@ -174,6 +174,8 @@ body{
 /* Position sticky + top 0px pour qu'elle reste coler en haut de l'écran en descendant vers le bas */
 /* le margin-bottom est parce que j'ai mis mon background image dans le header du coup ma nav a une marge - pour descendre sur le l'image */
 /* Border bottom pas nécessaire mais dans la template on voit une genre de border mais dans la nav donc je l'ai mise partout. */
+
+/* NAV */
 nav{
     display: flex;
     align-items: center;
@@ -202,7 +204,7 @@ nav{
     position: relative;
     left: 2%;
 }
-
+/* NAV END*/
 /* J'ai dis plus haut que j'avais pas spécifié mais les seuls trucs sur lequel je l'ai fait c'est sur les h3 et h4 parce qu'ils reviennent a chaque section */
 /* Pour les font-family j'ai utilisé que du Baloo 2 ou Noto Sans JP, c'est ce qui correspondait le mieux */
 h3{
@@ -214,6 +216,8 @@ h3{
 /* Comme dis précédemment j'ai mis le background imgage dans le header */
 /* J'ai donc simplement mis background et donner toutes les spécificités que je voulais a celui ci. */
 /* Le positionnement a été du chiffouillage et des tests en boucle */
+
+/* HEADER */
 header{
     height: auto;
     line-height: 1;
@@ -273,7 +277,10 @@ header{
     margin-left: 35%;
     cursor: pointer;
 }
+
+/* HEADER END */
 /* Sur toutes mes sections j'ai le même padding top sauf celui ci, je trouve que ça collait mieux, plus tard c'est tout le temps 7vh */
+/* SECTION 1  */
 .section1{
     display: flex;
     margin-left: 15%;
@@ -310,7 +317,9 @@ h4{
     padding: 10px;
     cursor: pointer;
 }
+/* SECTION 1 END */
 
+/* CSS GENERAL  (y en a quelqu'uns au dessus aussi)*/
 .section{
     padding-top: 20vh;
     margin-left: 15%;
@@ -328,6 +337,9 @@ h4{
     justify-content: center;
 }
 
+/* END CSS GENERAL */
+
+/* SECTION 2  */
 .section2img{
     display: flex;
     text-align: center;
@@ -353,7 +365,8 @@ h4{
     font-family: "Baloo 2";
     font-weight: bold;
 }
-
+/* SECTION 2 END */
+/* SECTION 3*/
  .section3img{
     display: flex;
     justify-content: center;
@@ -418,7 +431,9 @@ h4{
 .casePort:hover .imgPort{
     opacity: 0.5;
 }
+/* END SECTION 3 */
 
+/* SECTION 4  */
 
 .section4case{
     display: flex;
@@ -462,7 +477,8 @@ h4{
     font-size: 14px;
     cursor: pointer;
 }
-
+/* END SECTION 4 */
+/* SECTION 5 */
 .section5Display{
     display: flex;
     align-items: center;
@@ -511,6 +527,9 @@ h4{
     margin-left: -25%;
 }
 
+/* END SECTION 5  */
+
+/* SECTION 7 (section 6 est en dessous de la 8 */
 .section7img1{
     width: 300px;
     height: 300px;
@@ -568,6 +587,10 @@ h4{
     width: 300px;
     height: 300px;
 }
+
+/* END SECTION 8 */
+
+/* SECTION 8 */
 textarea {
     width: 75%;
     margin-left: 12%;
@@ -593,7 +616,9 @@ textarea {
     cursor: pointer;
     
 }
+/* END SECTION 8 */
 
+/* SECTION 6 */
 .section6Case1{
     border: 1px solid rgba(128, 128, 128, 0.472);
     width: 500px;
@@ -642,10 +667,13 @@ textarea {
     gap: 70px;
     padding-top: 7vh;
 }
-
+/* END SECTION 6 */
+/* X NAVBAR */
 #navX{
     color: black ;
-}hr{
+}
+/* FOOTER */
+hr{
     margin-top: 9vh;
 }
 
@@ -676,7 +704,9 @@ footer>div{
 footer a{
     color: rgb(134, 133, 133);
 }
+/* END FOOTER */
 
+/* X NAVBAR */
 .fa-bars{
     color: black;
 }
