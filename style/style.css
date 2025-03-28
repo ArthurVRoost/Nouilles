@@ -202,13 +202,18 @@ nav{
     position: relative;
     left: 2%;
 }
+
+/* J'ai dis plus haut que j'avais pas spécifié mais les seuls trucs sur lequel je l'ai fait c'est sur les h3 et h4 parce qu'ils reviennent a chaque section */
+/* Pour les font-family j'ai utilisé que du Baloo 2 ou Noto Sans JP, c'est ce qui correspondait le mieux */
 h3{
     color: #64579f;
     font-size: 30px;
     font-family: "Baloo 2";
     margin: 0;
 }
-
+/* Comme dis précédemment j'ai mis le background imgage dans le header */
+/* J'ai donc simplement mis background et donner toutes les spécificités que je voulais a celui ci. */
+/* Le positionnement a été du chiffouillage et des tests en boucle */
 header{
     height: auto;
     line-height: 1;
@@ -220,7 +225,7 @@ header{
     padding-top: 130px;
     
 }
-
+/* Mon Header commence par un h2 et ensuite un h1 parce que je trouvais HI! nul comme h1 et je trouve l'autre mis + en évidence.  */
 .headerH2{
     font-family: "Baloo 2";
     color: rgb(101, 99, 99);
@@ -255,7 +260,7 @@ header{
     letter-spacing: 5px;
     margin-left: 35%;
 }
-
+/* Sur tous mes boutons j'ai mis un cursor:pointer pour bien distinguer les boutons du texte.  */
 .headerButton button{
     background-color: #64579f;
     color: white;
