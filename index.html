@@ -12,6 +12,7 @@
     
 </head>
 <body>
+    <!-- Je crée ma nav au dessus de mon header meme si c'est atypique, c'etait comme ça sur l'image -->
     <nav class="nav">
         <div class="navTitre" >
             <h3>Nouilles</h3>
@@ -104,7 +105,7 @@
             </div>
         </div>
     </section>
-
+<!-- Le plus important dans ce genre de cas est de ne pas oublier une div qui englobe tout sinon ça merde avec le display flex -->
     <section id="portfolio">
         <div class="section">
             <div class="sectionH4">
@@ -138,7 +139,7 @@
             </div>
         </div>
     </section>
-
+<!-- Pareil que la section précédente, surtout pas oublier la div qui englobe -->
     <section>
         <div class="section">
             <div class="sectionH4">
@@ -231,7 +232,7 @@
             <div class="sectionH3">
                 <h3>Blog</h3>
             </div>
-            
+    <!-- Meme si pas forcement besoin j'ai préféré créer une div pour chaque élément dans la case, plus simple a bouger et a gérer. -->
                 <div class="section7Case1">
                     <div>
                         <img class="section7img1" src="./Nouilles/images/img-1.jpg" alt="image d'une toile de peinture">
@@ -268,9 +269,9 @@
             <div class="sectionH3">
                 <h3>Contact Me</h3>
             </div>
-            
+            <!-- de base Action sert a désigner ou tu l'envoies mais la pas besoin donc #, textarea important pour bouger la case comme sur la template. -->
             <div class="form-container">
-                <form action="#" method="POST">
+                <form action="#">
                     <textarea placeholder="Write Something"></textarea>
                     <button class="section8Btn" type="submit">Send Message</button>
                 </form>
