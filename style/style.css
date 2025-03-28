@@ -634,6 +634,7 @@ textarea {
 /* END SECTION 8 */
 
 /* SECTION 6 */
+/* La section 6 était la plus chiante, pour créer l'effet de l'avatar au milieu de la bordure j'ai utiisé une position absolut */
 .section6Case1{
     border: 1px solid rgba(128, 128, 128, 0.472);
     width: 500px;
@@ -648,6 +649,8 @@ textarea {
     left: 12%;
     
 }
+/* Je crée la position absolut et joue avec le left pour bien les placer */
+/* Grace a la bonne structure HTML j'ai juste a check le left parce que je peux deja les align center. */
 .section6P{
     padding-left: 13%;
     padding-top: 3%;
