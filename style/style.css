@@ -376,6 +376,8 @@ h4{
 }
 /* SECTION 2 END */
 /* SECTION 3*/
+
+
  .section3img{
     display: flex;
     justify-content: center;
@@ -383,19 +385,22 @@ h4{
     padding-top: 7vh;
  }
 
-
+/* Position relative sur le container de l'animation, overflow hidden enlève ce qui dépasse. */
 .casePort{
     position: relative;
     overflow: hidden;
     width: 355px;
 }
-
+/* ajoute la transition quand l'opacité change */
 .imgPort{
     display: block;
     width: 100%;
     transition: opacity 0.5s ease;
 }
-
+/* avec la position absolute, elle place la classe au dessus de celle de la case */
+/* top et left centrent */
+/* transfrom:translate c'est pour centret l'élément parce que de base il prend le coin en haut a gauche par rapport au parent et scale 0 pour qu'il soit pas la a la base avant le hover. */
+/* opacity 0 important pour que ce soit invisible avant l'animation */
 .animPort{
     position: absolute;
     top: 50%;
@@ -412,8 +417,9 @@ h4{
     transition: transform 0.5s ease, opacity 0.5s ease;
     text-align: center;
 }
+/* le h3 existe pas avant le hover */
 .animPort h3{
-    transform: scale(0.8);
+    transform: scale(0);
     transition: transform 0.5s ease;
 }
 
@@ -423,12 +429,12 @@ h4{
     opacity: 0;
     transition: opacity 0.5s ease 0.2s;
 }
-
+/* crée l'animation venant du centre */
 .casePort:hover .animPort{
     opacity: 1;
     transform: translate(-50%, -50%) scale(1);
 }
-
+/* le h3 et le p deviennent visible grace au hover et l'opacité de l'image de base est réduite pour créer l'effet background */
 .casePort:hover .animPort h3{
     transform: scale(1);
 }
